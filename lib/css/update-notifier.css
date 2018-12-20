@@ -1,0 +1,104 @@
+body{
+	line-height:1.6em;
+}
+
+.update-nag { 
+	display: none; 
+}
+#instructions {
+	width:100%;
+	max-width: 800px;
+	padding-top: 10px;
+}
+h3.title {
+	padding: 30px 0 0 0; 
+	border-top: 1px solid #ddd;
+}
+
+#instructions .two-columns{
+	width:40%;
+	margin-right: 4%;
+	padding: 4%;
+	float: left;
+	margin-bottom: 20px;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); */
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	min-height: 351px;
+}
+#instructions .two-columns h3{
+	margin-top: 5px;
+}
+#instructions .no-margin{
+	margin-right: 0px;
+}
+
+@media screen and (max-width: 520px) {
+	#instructions .two-columns{
+		width:100%;
+		margin-right: 0px;
+	}
+}
+
+#manual-instructions, #no-details{
+	display: none;
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	border-color: #206787;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 7px 15px;
+	margin:15px 0;
+	display: block;
+	text-align: center;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+#changelog ul{
+	list-style: initial;
+	margin-bottom: 30px;
+}
+#changelog li{
+	margin-left:20px;
+}
+
+#changes-title {
+    padding-top: 25px;
+}
+
+#confirm-update{
+	display: none;
+}
+
+.pexeto-update-notice{
+	background: #fff;
+	border-left-width: 4px;
+	border-left-style: solid;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding: 1px 12px;
+}
+
+.older-than-236{
+	display: none;
+}
+
+.pexeto-update-icon{
+	color:#0073aa;
+	font-size: 25px;
+    width: 25px;
+    height: 25px;
+    line-height: 22px;
+}
+.pexeto-changes-icon{
+	color:#0073aa;
+	font-size: 19px;
+}
+.wrap h2.pexeto-updates-title{
+	margin-bottom: 30px;
+}
